@@ -7,7 +7,6 @@
 int gabarito_prova[10];
 int lenght_gabarito = sizeof(gabarito_prova) / sizeof(gabarito_prova[0]);
 int quantidade_participantes;
-char nome_participante[20];
 char array_aluno[20][20];
 int respostas_aluno[20];
 int pontuacao_aluno;
