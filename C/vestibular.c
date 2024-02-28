@@ -38,12 +38,10 @@ int main(void)
     {
       break;
     }
-    printf("%s\n", array_aluno[i]);
     for (int j = 0; j < 10; j++)
     {
       printf("Digite a resposta do participante na questão %i\n", j + 1);
       scanf(" %i", &respostas_aluno[j]);
-      printf("%i\n", respostas_aluno[j]);
     }
 
     // loop para verificar a pontuação do aluno
@@ -92,7 +90,6 @@ int main(void)
       quantidade_media_acima++;
     }
   }
-  printf("%f", quantidade_media_acima);
   percentual_media_acima = quantidade_media_acima / quantidade_participantes;
 
   // imprimir alunos, respostas e suas notas
